@@ -1,0 +1,13 @@
+name = "IgDL"
+uuid = "e3c876a3-df62-43c3-a0d1-934b0803b0cd"
+authors = ["Mateusz Kaduk <mateusz.kaduk@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.9"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
